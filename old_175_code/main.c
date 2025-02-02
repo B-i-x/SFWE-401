@@ -147,16 +147,15 @@ void setup_game(char name[]) {
   printf("\n$$$$$$$$$ $$$$$$$$$ $$$$$$$$$ $$$$$$$$$ $$$$$$$$$\n\t\t  $$$$$$$$$ $$$$$$$$$ $$$$$$$$$\n");
   printf("\t\t\t\t\t%s\n\t\t Let's play Two pairs or Better", name);
   printf("\n\t\t  $$$$$$$$$ $$$$$$$$$ $$$$$$$$$\n$$$$$$$$$ $$$$$$$$$ $$$$$$$$$ $$$$$$$$$ $$$$$$$$$\n");
-  printf("$$$$$$$$$\t\t Rank of winning\t\t$$$$$$$$$\n");
+  printf("$$$$$$$$$\t\t Rank of winning\t\tPay\n");
 
-  printf("\t\t\t\t\t\t\t\t\t\t\tPay\n");
   printf("Royal Flush\t\t 10%s J%s Q%s K%s A%s\t\t  250*bet\n", diamonds, diamonds, diamonds, diamonds, diamonds);
-  printf("Straight Flush\t  2%s 3%s 4%s 5%s 6%s\t\t  100*bet\n", diamonds, diamonds, diamonds, diamonds, diamonds);
-  printf("Four of a Kind\t  5%s 5%s 5%s 5%s  %s\t\t  50*bet\n", diamonds, spades, hearts, clubs, square);
+  printf("Straight Flush\t\t  2%s 3%s 4%s 5%s 6%s\t\t  100*bet\n", diamonds, diamonds, diamonds, diamonds, diamonds);
+  printf("Four of a Kind\t\t  5%s 5%s 5%s 5%s  %s\t\t  50*bet\n", diamonds, spades, hearts, clubs, square);
   printf("Full House\t\t  8%s 8%s 8%s 2%s 2%s\t\t  25*bet\n", diamonds, spades, hearts, clubs, diamonds);
   printf("Flush     \t\t  %s%s %s%s %s%s %s%s %s%s\t\t  10*bet\n", square, diamonds, square, diamonds,square, diamonds,square, diamonds,square, diamonds);
   printf("Straight  \t\t  4%s 5%s 6%s 7%s 8%s\t\t  5*bet\n", square,  square, square, square, square);
-  printf("Three of a Kind\t  7%s 7%s 7%s  %s  %s\t\t  4*bet\n", diamonds, spades, hearts, square, square);
+  printf("Three of a Kind\t\t  7%s 7%s 7%s  %s  %s\t\t  4*bet\n", diamonds, spades, hearts, square, square);
   printf("Two Pair\t\t  K%s K%s 3%s 3%s  %s\t\t  2*bet\n", diamonds, spades, hearts, clubs, square);
 }
 
