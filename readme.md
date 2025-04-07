@@ -21,3 +21,28 @@ The command below does this
 chcp 65001
 .\game.exe
 ```
+
+## CMake
+
+I also made a CMakefile if you know how to run those
+
+
+## Fuzzing
+
+Make sure you are cd'd into build dir
+
+### Windows
+
+This command worked for me in powershell
+
+```powershell
+type ..\test_fuzzing_input\test_input.txt | .\game.exe
+```
+
+### Mac
+
+This command might work
+
+```terminal
+.\game.exe < ..\test_fuzzing_input\test_input.txt
+```
